@@ -1,0 +1,12 @@
+.transitions {
+    transition: width 1s;
+}
+.transitions:hover {
+    width: 320px;
+}
+#transitions-2 {
+    transition: width 1s, height 3s;
+}
+#transitions-2:hover {
+    height: 300px;
+}
