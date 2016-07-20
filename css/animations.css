@@ -1,0 +1,13 @@
+@keyframes animation-1 {
+    0%   {background-color: red; width: 320px;}
+    25%  {background-color: yellow; width: 480px;}
+    50%  {background-color: green; width: 640px;}
+    100% {background-color: blue; width: 800px;}
+}
+#animations-1 {
+  background-color: red;
+  animation-name: animation-1;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: 2;
+}
